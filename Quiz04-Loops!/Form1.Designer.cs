@@ -119,6 +119,7 @@
             q1Button.TabIndex = 5;
             q1Button.Text = "Code Me!";
             q1Button.UseVisualStyleBackColor = true;
+            q1Button.Click += q1Button_Click;
             // 
             // panel1
             // 
@@ -156,6 +157,7 @@
             q2Button.TabIndex = 10;
             q2Button.Text = "Code Me!";
             q2Button.UseVisualStyleBackColor = true;
+            q2Button.Click += q2Button_Click;
             // 
             // label6
             // 
@@ -226,7 +228,7 @@
             // 
             q4TextBox.Location = new Point(595, 139);
             q4TextBox.Name = "q4TextBox";
-            q4TextBox.Size = new Size(100, 26);
+            q4TextBox.Size = new Size(100, 31);
             q4TextBox.TabIndex = 16;
             // 
             // q3Button
@@ -238,6 +240,7 @@
             q3Button.TabIndex = 17;
             q3Button.Text = "Code Me!";
             q3Button.UseVisualStyleBackColor = true;
+            q3Button.Click += q3Button_Click;
             // 
             // q4OutputLabel
             // 
@@ -294,6 +297,7 @@
             q5Button.TabIndex = 19;
             q5Button.Text = "Code Me!";
             q5Button.UseVisualStyleBackColor = true;
+            q5Button.Click += q5Button_Click;
             // 
             // label13
             // 
@@ -335,10 +339,11 @@
             bonusLabel.Name = "bonusLabel";
             bonusLabel.Size = new Size(376, 101);
             bonusLabel.TabIndex = 23;
+            bonusLabel.Text = "when you are waiting for an action like a bool to become true";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(9F, 19F);
+            AutoScaleDimensions = new SizeF(11F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Green;
             ClientSize = new Size(1029, 671);
